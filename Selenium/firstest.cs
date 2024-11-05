@@ -2,17 +2,17 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
 
-namespace SeleniumMarken
+namespace Selenium
 {
     public class FirstTestCase
     {
         static void Main(string[] args)
         {
             TestClick(); 
-            TestDouubleClick(); 
+            TestDoubleClick(); 
             TestHiddenLayers();
-            TestClienntDelay();
-            Testloaddelays();
+            TestClientDelay();
+            TestLoadDelays();
             TestUpload();
             TestHidingButton();
 
@@ -32,7 +32,7 @@ namespace SeleniumMarken
             element.Click();
         }
 
-        private static void TestDouubleClick()
+        private static void TestDoubleClick()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\Drivers\\FirefoxPortable\\App\\Firefox64\\firefox.exe";
 
@@ -62,7 +62,7 @@ namespace SeleniumMarken
             element.Click();
         }
 
-        private static void TestClienntDelay()
+        private static void TestClientDelay()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\Drivers\\FirefoxPortable\\App\\Firefox64\\firefox.exe";
 
@@ -79,7 +79,7 @@ namespace SeleniumMarken
             p.Click();
         }
 
-        private static void Testloaddelays()
+        private static void TestLoadDelays()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\Drivers\\FirefoxPortable\\App\\Firefox64\\firefox.exe";
 
